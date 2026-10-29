@@ -78,24 +78,6 @@ adb install -r "Furdiburb-Modernized.apk"
 
 ---
 
-## 📂 What Files to Share / Upload for Transparency
-
-If you want to share this project or upload it to GitHub, here is the best way to do it:
-
-* **What to upload to the repository:**
-  * This `README.md` file.
-  * The specific files we modified:
-    * `apk_decompiled/AndroidManifest.xml` (app permissions and screen settings)
-    * `apk_decompiled/apktool.yml` (SDK version settings)
-    * `apk_decompiled/smali/com/sheado/lite/pet/view/PetView.smali` (touch fix)
-    * `apk_decompiled/smali/com/sheado/lite/pet/view/PetActivity.smali` (fullscreen and cutout settings)
-    * `apk_decompiled/smali/com/immersion/content/EndpointWarp.smali` (64-bit compatibility bypass)
-* **What NOT to upload directly to Git:**
-  * Do not upload large `.apk` files directly into Git history. Instead, attach **`Furdiburb-Modernized.apk`** under the **GitHub Releases** tab.
-  * Avoid uploading all the original extracted game images and sounds to a public repository to keep things clean and respect the original developers' copyright.
-
----
-
 ## 📌 Things to Know
 
 * **In-App Purchases:** The original game used an old Google Play purchase system from 2012 that Google shut down years ago. In-app store purchases will not complete, but the game will not crash.
